@@ -1,7 +1,7 @@
  <!DOCTYPE html>
 <html>
 <head>
-<title>Le Websito</title>
+
 </head>
 <body>
 
