@@ -1,1 +1,12 @@
-<h1> testing code </h1>
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Le Websito</title>
+</head>
+<body>
+
+<h1>Testing</h1>
+
+
+</body>
+</html> 
