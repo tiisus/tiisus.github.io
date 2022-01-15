@@ -1,7 +1,8 @@
- <!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<HTML>
 <head>
-
+ <title>Website</title>
+ <meta charset="utf-8" />
 </head>
 <body>
 
@@ -9,4 +10,4 @@
 
 
 </body>
-</html> 
+</HTML> 
