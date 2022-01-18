@@ -1,19 +1,29 @@
-/*.item1 { grid-area: header; }
+.item1 { grid-area: header; }
 
-.item2 { grid-area: menu; }
+.item2 { grid-area: nav; }
 
 .item3 { grid-area: main; }
 
-.item4 { grid-area: footer; }
+.item4 { grid-area: panel }
+
+.item5 { grid-area: footer; }
 	
 	
-		
+/*making grid-container 3x4 size*/
 .grid-container {
 		display: grid;
-		}
-*/
+		grid-template-areas:
+		
+		'header header header'
+		'nav nav nav'
+		'panel nav nav'
+		'footer footer footer';
+		grid-gap: 5px;
+		
+	}
+
 
 p {
-	color: red;
+	color: blue;
 	
 }
