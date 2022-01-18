@@ -15,9 +15,9 @@
 		grid-template-areas:
 		
 		'header header header'
-		'nav nav nav'
+		'panel nav nav'
 		'panel main main'
-		'footer footer footer';
+		'panel footer footer';
 		grid-gap: 5px;
 		
 	}
