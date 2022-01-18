@@ -1,21 +1,40 @@
-.item1 { grid-area: header; }
+.item1 { 
+	grid-area: header; 
+	background-color: grey;
+	}
 
-.item2 { grid-area: nav; }
+.item2 { 
 
-.item3 { grid-area: main; }
+	grid-area: nav; 
+	background-color: red;
+	}
 
-.item4 { grid-area: panel }
+.item3 { 
+	
+	grid-area: main; 
+	background-color: blue;
+	}
 
-.item5 { grid-area: footer; }
+.item4 { 
+
+	grid-area: panel; 
+	background-color: black;
+	}
+
+.item5 { 
+
+	grid-area: footer; 
+	background-color: yellow;
+	
+	}
 	
 	
 /*making grid-container 3x4 size*/
 .grid-container {
 		display: grid;
 		grid-template-areas:
-		
 		'header header header'
-		'panel nav nav'
+		'nav main main'
 		'panel main main'
 		'panel footer footer';
 		grid-gap: 5px;
@@ -23,14 +42,25 @@
 	}
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
-}
+	}
 
-
-p {
-	color: blue;
+.navlinks {
 	
-}
+	color: white;
+	
+	}
+
+.avatar {
+	
+	background-color: grey;
+	
+	}
+	
+.infobox {
+	
+	background-color: green;
+	
+	}
