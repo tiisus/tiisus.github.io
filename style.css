@@ -1,36 +1,136 @@
-.item1 { 
-	grid-area: header; 
-	background-color: grey;
-	}
+body {
+	/*entire website background color*/
+	background-color: #00aaaa;
+	
+}
 
-.item2 { 
+/* header style */
+.topheader { 
+	grid-area: header; 
+	background-color: #555555;
+	/*position: sticky;*/
+	border: 3px #f5f5f5;
+	border-style: outset;
+	min-width: 150px;
+	box-sizing: inherit;
+	
+}
+
+
+/* small button */
+.button {
+	
+	color: #50ffff;
+	background-color: #afa8af;
+	
+}
+
+/* big button on top */
+.buttonbig {
+	
+	float: left;
+	display: inline-block;
+	color: #50ffff;
+	background-color: #afa8af;
+	font-size: 30px;
+	cursor: pointer;
+	padding: 15px 32px;
+	text-align:
+	
+}
+
+.centered {
+	display: inline-block;
+	
+}
+
+.buttonbig2 {
+	
+	float: right;
+	display: inline-block;
+	color: #50ffff;
+	background-color: #afa8af;
+	font-size: 30px;
+	cursor: pointer;
+	padding: 15px 32px;
+	
+}
+
+.bignav { 
 
 	grid-area: nav; 
 	background-color: red;
-	}
+}
 
-.item3 { 
+.maincont { 
 	
-	grid-area: main; 
-	background-color: blue;
-	}
+	grid-area: main;  
+	background-color: #afa8af;
+	padding: auto;
+	border: 3px #f5f5f5;
+	border-style: outset;
+	
+}
 
-.item4 { 
+.sidepanel { 
 
 	grid-area: panel; 
-	background-color: black;
-	}
+	background-color: #afa8af;
+	border: 3px #f5f5f5;
+	border-style: outset;
+	
+}
 
-.item5 { 
+.bottomfooter { 
 
 	grid-area: footer; 
-	background-color: yellow;
+	background-color: #aaaaaa;
+	margin-top: 5px;
 	
-	}
+}
 	
+.smallnav {
+	
+	grid-area: nav;
+	background-color: #afa8af;
+	max-width: 150px;
+	padding: 25px;
+	box-sizing: border-box;
+	border: 3px #f5f5f5;
+	border-style: outset;
+	
+}
+
+
+/*=============== main page=========================*/
+.grid-container {
+		display: grid;
+		grid-template-areas:
+		'header header'
+		'nav main'
+		'footer footer';
+		
+		/* gap between grids */
+		grid-gap: 5px;
+		
+		/* grid column sizes customized pystysuora*/
+		grid-template-columns: 125px auto;
+		
+		/* grid rows sizes customized vaakasuora*/
+		grid-template-rows: 80px auto 80px;
+		
+}
+
+.grid-container > div {
+  text-align: center;
+  /*padding: 20px 20px;
+  font-size: 20px;*/
+}	
+	
+/*=============== info page=========================*/
 	
 /*making grid-container 3x4 size*/
-.grid-container {
+.infopage {
 		display: grid;
 		grid-template-areas:
 		'header header header'
@@ -39,28 +139,35 @@
 		'footer footer footer';
 		grid-gap: 5px;
 		
-	}
+}
 
-.grid-container > div {
+.infopage > div {
   text-align: center;
   padding: 20px 0;
-  font-size: 30px;
-	}
+  font-size: 20px;
+}
 
+/* info-pages links*/	
 .navlinks {
 	
 	color: white;
 	
-	}
+}
 
 .avatar {
 	
 	background-color: grey;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-right: 25%;
+	margin-left: 25%;
+	border: 2px dashed white;
+	border-radius: 20px;
 	
-	}
+}
 	
 .infobox {
 	
 	background-color: green;
 	
-	}
+}
