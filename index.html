@@ -14,32 +14,35 @@
 	
 	<body>
 	
+	
+	
 	<!-- grid container layout starts -->
 	<div class="grid-container">
 	
 	<!-- header section -->
-		<div class="topheader">
+		<header class="topheader">
 			
-			<in><button class="buttonbig">Link1</button></in>
-			<in><p class="centered"> Sivusto on huollettavana</p></in>
-			<in><button class="buttonbig2">Link2</button></in>
+			<button class="buttonbig">Exit</button>
+			
+			<h1 class="centered"> Sivusto on huollettavana</h1>
+			
 	
-		</div>
+		</header>
 		
 	<!-- navigation section -->
 	
 		<div class="smallnav">
+			
+			<img class="focused" src="./art/huolto.gif" alt="huoltokuva" width="100" height="100">
 	
-			
-			
-			
-			
-			<button class="button">Link3</button>
-			
-			<button class="button">Link4</button>
-			
-			<img src="./art/huolto.gif" alt="huoltokuva" width="100" height="100">
+			<p class="focused">Tervetuloa kotisivuille.</p>
+		
+			<!-- casual ad without border-->
+			<img class="ads" src="./art/icon.png" alt="ad" width="125" height="125">
+			<!-- casual banner with border -->
+			<div class="banner">"What is better? To be born good or to overcome your evil nature through great effort?"-Paarthurnax</div>
 	
+		
 		</div>
 		
 		
@@ -48,17 +51,24 @@
 	<div class="maincont">
 	
 	
-		<button class="custombutton">info</button>
-		<button class="custombutton">portfolio</button>
-		<button class="custombutton">games</button>
+		<button class="custombutton"><img src="./art/icon.png" alt="ad" width="200" height="200"><p class="mained">Beginner</p></button>
+		<button class="custombutton"><img src="./art/icon.png" alt="ad" width="200" height="200"><p class="mained">Advanced</p></button>
+		<button class="custombutton"><img src="./art/icon.png" alt="ad" width="200" height="200"><p class="mained">Professional</p></button>
 		
+		<p id="datetag"></p>
+		
+		<script>
+		const d = new Date();
+		document.getElementById("datetag").innerHTML = d.toUTCString();
+		</script>
 		
 	</div>
 	
 	<!-- footer section -->
 		<div class="bottomfooter">
 	
-			footer
+			<p>Version 0.2 Sponsored by Juhlamokka & Kela ©. Tiisus 2022. All rights reserved.</p><br>
+			<p></p>
 	
 		</div>
 			
