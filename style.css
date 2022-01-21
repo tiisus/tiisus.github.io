@@ -14,39 +14,27 @@ body {
 	border: 3px #f5f5f5;
 	border-style: outset;
 	min-width: 150px;
+	max-height: 40px;
 	box-sizing: inherit;
+	
 	
 }
 
 
 /* small button */
-.button {
+/*.button {
 	
 	font-family: "VT323", "Lucida Console";
 	color: #50ffff;
 	background-color: #afa8af;
 	
-}
+}*/
 
-/* big button on top */
-.buttonbig {
-	
-	font-family: "VT323", "Lucida Console";
-	float: left;
-	display: inline-block;
-	color: #50ffff;
-	background-color: #afa8af;
-	font-size: 40px;
-	height: 100%;
-	cursor: pointer;
-	padding: 5px 2px;
-	
-	
-}
 
 .custombutton {
 	
 	font-family: "VT323", "Lucida Console";
+	font-size: 20px;
 	background-color: #afa8af;
 	cursor: pointer;
 	width: 250px;
@@ -54,7 +42,7 @@ body {
 	border: 3px #f5f5f5;
 	border-style: outset;
 	display: inline-block;
-	margin: 20px;
+	margin: 5%;
 }
 
 .custombutton:hover {
@@ -63,8 +51,19 @@ body {
 	
 }
 
-.centered {
-	display: inline-block;
+/* big button on top */
+.buttonbig {
+	
+	font-family: "VT323", "Lucida Console";
+	float: left;
+	left: 0;
+	color: #50ffff;
+	background-color: #afa8af;
+	font-size: 20px;
+	height: 100%;
+	cursor: pointer;
+	padding: 5px 2px;
+	
 	
 }
 
@@ -72,15 +71,26 @@ body {
 	
 	font-family: "VT323", "Lucida Console";
 	float: right;
-	display: inline-block;
+	right: 0;
 	color: #50ffff;
 	background-color: #afa8af;
-	font-size: 40px;
+	font-size: 20px;
 	height: 100%;
 	cursor: pointer;
-	padding: 5px 5px;
+	padding: 5px 2px;
+	
 	
 }
+
+/* header text */
+.centered {
+
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	
+}
+
 
 .bignav { 
 
@@ -89,13 +99,26 @@ body {
 }
 
 .maincont { 
-	
+	font-family: "VT323", "Lucida Console";
+	font-size: 20px;
+	text-align: center;
 	grid-area: main;  
 	background-color: #afa8af;
 	padding: auto;
 	border: 3px #f5f5f5;
 	border-style: outset;
+}
+
+.maincont > p {
+
+	text-align: left;
+	margin-left: 15%;
+
+}
+
+.mained {
 	
+	margin-top: 0px;
 }
 
 .sidepanel { 
@@ -110,22 +133,61 @@ body {
 .bottomfooter { 
 
 	grid-area: footer; 
-	background-color: #aaaaaa;
-	margin-top: 5px;
+	background-color: #afa8af;
+	border: 3px #f5f5f5;
+	border-style: outset;
+	text-align: center;
+	font-family: "VT323", "Lucida Console";
+	font-size: 20px;
 	
 }
 	
 .smallnav {
 	
+	
 	grid-area: nav;
 	background-color: #afa8af;
-	max-width: 150px;
-	padding: 25px;
+	max-width: 125px;
+	
 	box-sizing: border-box;
 	border: 3px #f5f5f5;
 	border-style: outset;
+	text-align: center;
+	font-family: "VT323", "Lucida Console";
+	font-size: 20px;
+	
 	
 }
+
+.focused {
+	
+	padding: 15px 15px;
+	max-width: 125px;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0;
+}
+
+.ads {
+	
+	max-width: 125px;
+	margin: 0;
+	width: 100%;
+	box-sizing: border-box;
+	cursor: pointer;
+	
+}
+
+.banner {
+	
+	padding: 10px 10px;
+	border: 3px #f5f5f5;
+	border-style: outset;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+}
+
 
 /*=============== main page=========================*/
 .grid-container {
@@ -136,21 +198,21 @@ body {
 		'footer footer';
 		
 		/* gap between grids */
-		grid-gap: 5px;
+		/*grid-gap: 5px;*/
 		
 		/* grid column sizes customized pystysuora*/
 		grid-template-columns: 125px auto;
 		
 		/* grid rows sizes customized vaakasuora*/
-		grid-template-rows: 80px auto 80px;
+		grid-template-rows: 40px auto 80px;
 		
 }
 
-.grid-container > div {
-  text-align: center;
+/*.grid-container > div {/
+  /*text-align: center;*/
   /*padding: 20px 20px;
-  font-size: 20px;*/
-}	
+  font-size: 20px;
+}	*/
 	
 /*=============== info page=========================*/
 	
