@@ -23,7 +23,7 @@
 	<!-- header section -->
 		<header class="topheader">
 			
-			<button class="buttontop"> - </button>
+			<button class="buttontop" onclick="toMain()"> - </button>
 			<button class="buttontop"> ? </button>
 			
 			<h1 class="centered" style="color:White;"> SOFTWARE MANAGER </h1>
@@ -58,10 +58,155 @@
 	<div class="maincont" style="background-color:#ffffff;">
 	
 	
-		<button class="buttonicon"></button>
-		<button class="buttonicon"></button>
-		<button class="buttonicon"></button>
-		<button class="buttonicon"></button>
+		<button class="buttonicon" onclick="openPop(targetpop)"></button>
+		
+		<!-- popup window 1 starts here -->
+		
+			<div id="targetpop" class="popupbase">
+		
+				<div class="popupcont">
+					<div class="popper">
+						
+						<div class="topheader">
+						
+							<button class="buttontop" onclick="closePop(targetpop)" style="color: Red;"> X </button>
+							<button class="buttontop"> - </button>
+			
+							<h1 class="centered_title" style="color:White;"> Unnamed 2D project </h1>
+						
+						</div>
+						
+						<div class="longnav">
+						
+							<button class="buttonfake"> Game </button>
+							<button class="buttonfake"> Options </button>
+						
+						</div>
+						
+						<div class="maincont" style="background-color: #22aa00;">
+							
+							<p>insert text here</p>
+						
+						</div>
+	
+					</div>
+				</div>
+			</div>
+		
+		<!-- popup window 2 ends here -->
+		
+		<button class="buttonicon" onclick="openPop(targetpop2)"></button>
+		
+		<!-- popup window starts here -->
+		
+			<div id="targetpop2" class="popupbase">
+		
+				<div class="popupcont">
+					<div class="popper">
+						
+						<div class="topheader">
+						
+							<button class="buttontop" onclick="closePop(targetpop2)" style="color: Red;"> X </button>
+							<button class="buttontop"> - </button>
+			
+							<h1 class="centered_title" style="color:White;"> Relics of the Abyss </h1>
+						
+						</div>
+						
+						<div class="longnav">
+						
+							<button class="buttonfake"> Game </button>
+							<button class="buttonfake"> Options </button>
+						
+						</div>
+						
+						<div class="maincont" style="background-color: #22aa00;">
+							
+							<p>olen toka</p>
+						
+						</div>
+	
+					</div>
+				</div>
+			</div>
+		
+		<!-- popup window ends here -->
+		
+		
+		<button class="buttonicon" onclick="openPop(targetpop3)"></button>
+		
+		<!-- popup window 3 starts here -->
+		
+			<div id="targetpop3" class="popupbase">
+		
+				<div class="popupcont">
+					<div class="popper">
+						
+						<div class="topheader">
+						
+							<button class="buttontop" onclick="closePop(targetpop3)" style="color: Red;"> X </button>
+							<button class="buttontop"> - </button>
+							
+							<h1 class="centered_title" style="color:White;"> Tip Top Fit </h1>
+						
+						</div>
+						
+						<div class="longnav">
+						
+							<button class="buttonfake"> Game </button>
+							<button class="buttonfake"> Options </button>
+						
+						</div>
+						
+						<div class="maincont" style="background-color: #22aa00;">
+							
+							<p>insert text here</p>
+						
+						</div>
+	
+					</div>
+				</div>
+			</div>
+		
+		<!-- popup window ends here -->
+		
+		
+		<button class="buttonicon" onclick="openPop(targetpop4)"></button>
+		
+		<!-- popup window 4 starts here -->
+		
+			<div id="targetpop4" class="popupbase">
+		
+				<div class="popupcont">
+					<div class="popper">
+						
+						<div class="topheader">
+						
+							<button class="buttontop" onclick="closePop(targetpop4)" style="color: Red;"> X </button>
+							<button class="buttontop"> - </button>
+			
+							<h1 class="centered_title" style="color:White;"> Game4 </h1>
+						
+						</div>
+						
+						<div class="longnav">
+						
+							<button class="buttonfake"> Game </button>
+							<button class="buttonfake"> Options </button>
+						
+						</div>
+						
+						<div class="maincont" style="background-color: #22aa00;">
+							
+							<p>insert text here</p>
+						
+						</div>
+	
+					</div>
+				</div>
+			</div>
+		
+		<!-- popup window ends here -->
 		
 		
 	</div>
@@ -69,9 +214,9 @@
 	<!-- footer section -->
 		<div class="bottomfooter">
 	
-				<button class="buttonbottom"> sushi </button>
-				<button class="buttonbottom"> onigiri </button>
-				<button class="buttonbottom"> ramen </button>
+				<button class="buttonbottom" onclick="toMain()"> mainmenu </button>
+				<button class="buttonbottom" onclick="toInfo()"> info </button>
+				<button class="buttonbottom" onclick="toPortfolio()"> gallery </button>
 				<button class="buttonbottom"> lasagna </button>
 	
 		</div>
