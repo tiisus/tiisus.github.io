@@ -39,6 +39,27 @@ function toMain(){
 	location.assign("https://tiisus.github.io/");
 }
 
+/* changes page to digital section*/
+function toDigi(){
+	
+	location.assign("https://tiisus.github.io/digital.html");
+	
+}
+
+/* changes page to developer section*/
+function toMixed(){
+	
+	location.assign("https://tiisus.github.io/other.html");
+	
+}
+
+/* changes page to developer section*/
+function toPhotos(){
+	
+	location.assign("https://tiisus.github.io/photos.html");
+	
+}
+
 /* takes back to linkedin */
 function toLinkd(){
 
