@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>Mixed - Portfolio</title>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" type="image/x-icon" href="./art/favicon.png">
+		<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet'>
+		<script src="actions.js"></script>
+	
+	</head>
+	
+	<body>
+	
+	
+	
+	<!-- grid container layout starts -->
+	<div class="gallery">
+	
+	<!-- header section -->
+		<header class="topheader">
+			
+			<button class="buttontop" onclick="toPortfolio()"> - </button>
+			<button class="buttontop"> ? </button>
+			
+			<h1 class="centered" style="color:White;"> MIXEDGALLERIA </h1>
+			
+	
+		</header>
+		
+	<!-- navigation section -->
+	
+		<div class="longnav">
+			
+			<button class="buttonfake"> File </button>
+			<button class="buttonfake"> View </button>
+			<button class="buttonfake"> Options </button>
+			<button class="buttonfake"> Disk </button>
+			<button class="buttonfake"> Tiisus </button>
+		
+		</div>
+		
+		
+	<!-- text navigation section -->
+	
+		
+		
+	<!-- main section -->
+	
+	<div class="maincont" style="background-color:#22aa00;">
+	
+	<!-- insert all image divs and contents under div class "imageholder" using "imageblock" class-->
+		<div class="imageholder">
+		
+<!-- ======================================================= -->
+			<!-- image  -->
+			<div class="imageblock" onclick="openPop(mixpop1)">
+		
+				<p>name here <br> descr here <br> date here </p>
+				<img src="./art/huolto.gif" alt="huoltokuva" width="100" height="100"> 
+		
+			</div>
+		
+			<!-- popup starts here -->
+		
+			<div id="mixpop1" class="popupbase">
+			
+				<div class="popupcont">
+				
+					<div class="popper">
+						
+						<div class="topheader">
+						
+							<button class="buttontop" onclick="closePop(mixpop1)" style="color: Red;"> X </button>
+							<button class="buttontop"> - </button>
+			
+							<h1 class="centered_title" style="color:White;"> Donut, 2022</h1>
+						
+						</div>
+						
+						<div class="longnav">
+						
+							<button class="buttonfake"> Art </button>
+							<button class="buttonfake"> Options </button>
+						
+						</div>
+						
+						<div class="maincont" style="background-color: #22aa00;">
+							
+							<img src="./art/huolto.gif" alt="donut" width="300px" height="300px">
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<!-- popup ends here -->
+		
+<!-- ======================================================= -->
+
+		
+	
+		</div>
+		
+	</div>
+	<!-- main section ends here -->
+	
+	<!-- footer section -->
+		<div class="bottomfooter">
+	
+	
+		</div>
+			
+	<!-- grid container layout ends -->	
+	</div>
+	
+	
+	</body>
+	
+	
+</html>
