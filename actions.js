@@ -38,3 +38,37 @@ function toMain(){
 
 	location.assign("https://tiisus.github.io/");
 }
+
+/* takes back to linkedin */
+function toLinkd(){
+
+	location.assign("");
+}
+
+/* takes back to artstation */
+function toStation(){
+
+	location.assign("");
+}
+
+
+/*modal stuff*/
+
+function openPop(id){
+	
+	var popup = id;
+	popup.style.display = "block";
+	
+}
+
+function closePop(id) {
+	
+	var popup = id;
+	popup.style.display = "none";
+	
+}
+
+function infopop(){
+	
+	
+}
