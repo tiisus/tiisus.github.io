@@ -122,7 +122,24 @@ body {
 	margin: 2%;
 	padding-top: 10px;
 	float: left;
+	
+}
+
+/* button with icon in display, dev pages */
+.icont {
+	
+	font-family: "VT323", "Lucida Console";
+	font-size: 10px;
+	/*background-color: #ffffff;*/
+	background-color: transparent;
 	cursor: pointer;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin: 2%;
+	float: left;
+	outline: none;
+    border: none;
 	
 }
 
@@ -340,6 +357,12 @@ body {
 	
 	margin-top: 10px;
 	
+}
+
+.vid {
+	
+	margin-top: 15px;
+
 }
 
 /*=============== main page=========================*/
