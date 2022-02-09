@@ -3,75 +3,152 @@
 
 	<head>
 
-		<title>Tiisus pelastaa</title>
+		<title>Profiili - Tiisus</title>
 		<meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="icon" type="image/x-icon" href="./art/favicon.png">
+		<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet'>
+		<script src="actions.js"></script>
 	
 	</head>
 	
 	<body>
 	
-	<!-- grid container layout starts -->
-	<div class="infopage">
 	
+	
+	<!-- grid container layout starts -->
+	<div class="profile_cont">
 	
 	<!-- header section -->
-		<div class="topheader">
+		<header class="topheader">
+			
+			<button class="buttontop" onclick="toMain()"> - </button>
+			<button class="buttontop"> ? </button>
+			
+			<h1 class="centered" style="color:White;"> INFOTAIRE MANAGER</h1>
+			
 	
-			<p> Sivusto on huollettavana </p>
-	
-		</div>
+		</header>
 		
-	<!-- navigation section -->
+		
+	<!-- text navigation section -->
 	
-		<div class="bignav">
-	
-			<button class="button">Link1</button>
+		<div class="longmenu">
 			
-			<button class="button">Link2</button>
-			
-			<button class="button">Link3</button>
-			
-			<button class="button">Link4</button>
-	
+			<button class="buttonfake_single"> C:\TIISUS2022\PROFILE\INTRO.EXE (92,00 bytes) </button>
+		
 		</div>
 		
 	<!-- sidepanel section -->
-		
-		<div class="sidepanel">
-		
-			<div class="avatar">
-			
-			<img src="./art/favicon.png" alt="avatar" width="100" height="100">
-			
-			</div>
-		
-		
-		
-			<div class="infobox">
-			
-			<p class="navlinks">Stuff1</p>
-			<p class="navlinks">Stuff2</p>
-			<p class="navlinks">Stuff3</p>
-			
-			</div>
-		
-		</div>
+
+	<div class="infopanel">
+	
+	
+
+	<button onclick="toStation()"><img src="./art/art.png" alt="art" width="50px" height="50px"></button>
+	<button onclick="toLinkd()"><img src="./art/in.png" alt="lnkd" width="50px" height="50px"></button>
+	<button onclick="toTheseus()"><img src="./art/the.png" alt="thes" width="50px" height="50px"></button>
+	
+	<br>
+	
+	<div class="banner2">
+	<h3>Vinkki:</h3>
+	<p>Klikkaa kortteja hiirellä saadaksesi tiedon esille!</p>
+	
+	</div>
+	
+	</div>
+	
 		
 	<!-- main section -->
 	
-	<div class="maincont">
+	<div class="maincont" style="background-color:#22aa00;">
 	
-			<img src="./art/huolto.gif" alt="huoltokuva" width="100" height="100">
+	<div class="fakepanel">
+			
+			<button class="buttonfake"> Options </button>
+			<button class="buttonfake"> View </button>
+			
+	</div>
+	
+	<!--
+	<div>
+	<img src="./art/websitesmall.png" alt="app" width="auto" height="auto">
+	</div>-->
+	
+	<button class="flip-card" onclick="flip(img1,img2)">
+	 
+		<div id="img1" class="card1">
+			<img src="./art/back_card.png" alt="back" width="150px" height="200px">
+		</div>
+	
+		<div id="img2" class="card2" style="display: none;">
+			<img src="./art/nimicard.png" alt="name" width="150px" height="200px">
+		</div>
+	
+	</button> 
+	
+	<button class="flip-card" onclick="flip(img4,img5)">
+	 
+		<div id="img4" class="card1">
+			<img src="./art/back_card.png" alt="back" width="150px" height="200px">
+		</div>
+	
+		<div id="img5" class="card2" style="display: none;">
+			<img src="./art/langcard.png" alt="lang" width="150px" height="200px">
+		</div>
+	
+	</button> 
+	
+	<button class="flip-card" onclick="flip(img6,img7)">
+	 
+		<div id="img6" class="card1">
+			<img src="./art/back_card.png" alt="back" width="150px" height="200px">
+		</div>
+	
+		<div id="img7" class="card2" style="display: none;">
+			<img src="./art/taidecard.png" alt="art" width="150px" height="200px">
+		</div>
+	
+	</button> 
+	
+	<button class="flip-card" onclick="flip(img8,img9)">
+	 
+		<div id="img8" class="card1">
+			<img src="./art/back_card.png" alt="back" width="150px" height="200px">
+		</div>
+	
+		<div id="img9" class="card2" style="display: none;">
+			<img src="./art/gamecard.png" alt="games" width="150px" height="200px">
+		</div>
+	
+	</button> 
+	
+	<button class="flip-card" onclick="flip(img10,img11)">
+	 
+		<div id="img10" class="card1">
+			<img src="./art/back_card.png" alt="back" width="150px" height="200px">
+		</div>
+	
+		<div id="img11" class="card2" style="display: none;">
+			<img src="./art/hobbycard.png" alt="hobby" width="150px" height="200px">
+		</div>
+	
+	</button> 
+	
 	
 	</div>
+	
+	
 	
 	<!-- footer section -->
 		<div class="bottomfooter">
 	
-			footer
+				<button class="buttonbottom" onclick="toMain()"> Pääsivu </button>
+				<button class="buttonbottom" onclick="toPortfolio()"> Portfolio </button>
+				<button class="buttonbottom" onclick="toDev()"> Pelit </button>
+				<button class="buttonbottom" onclick="toTimo()"> - </button>
 	
 		</div>
 			
