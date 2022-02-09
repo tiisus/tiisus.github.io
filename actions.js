@@ -33,6 +33,13 @@ function toTheseus() {
 	
 }
 
+/* transports to friend */
+function toTimo() {
+	
+	location.assign("https://timokar.github.io/");
+	
+}
+
 /* takes back to mainpage */
 function toMain(){
 
@@ -63,17 +70,18 @@ function toPhotos(){
 /* takes back to linkedin */
 function toLinkd(){
 
-	location.assign("");
+	location.assign("https://www.linkedin.com/in/tiina-hirvonen-641726185");
 }
 
 /* takes back to artstation */
 function toStation(){
 
-	location.assign("");
+	location.assign("https://www.artstation.com/tiinah");
 }
 
 
 /*modal stuff*/
+/*opens popup using ID*/
 
 function openPop(id){
 	
@@ -82,6 +90,8 @@ function openPop(id){
 	
 }
 
+/*closes popup using ID*/
+
 function closePop(id) {
 	
 	var popup = id;
@@ -89,7 +99,29 @@ function closePop(id) {
 	
 }
 
+/*just ignore this*/
+
 function infopop(){
 	
+	
+}
+
+/*flips the cards in profilepage*/
+
+function flip(id,id2){
+	
+	/*id.src='./art/huolto.gif';*/
+	
+	if (id2.style.display == "none") {
+	id.style.display = "none";
+	id2.style.display = "block";
+	
+	}
+	
+	else {
+		
+	id.style.display = "block";
+	id2.style.display = "none";
+	}
 	
 }
