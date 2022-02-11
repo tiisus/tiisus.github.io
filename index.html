@@ -3,7 +3,7 @@
 
 	<head>
 
-		<title>Tiisus pelastaa</title>
+		<title>Tiisus kotisivut</title>
 		<meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="style.css">
@@ -41,7 +41,7 @@
 			<!-- casual ad without border-->
 			<img class="ads" src="./art/ad_opari.gif" onclick="toTheseus()" alt="ad" width="125" height="125">
 			<!-- casual banner with border -->
-			<div class="banner">"What is better? To be born good or to overcome your evil nature through great effort?"-Paarthurnax</div>
+			<div class="banner">Liiku sivustolla painikkeiden avulla. <br><br> Yläkulman painike '-' palauttaa edelliseen näkymään. </div>
 	
 		
 		</div>
@@ -56,19 +56,24 @@
 		<button class="custombutton" onclick="toPortfolio()"><img src="./art/pc_port.png" alt="ad" width="250" height="250"><p class="mained">Advanced</p></button>
 		<button class="custombutton" onclick="toDev()"><img src="./art/pc_game.png" alt="ad" width="250" height="250"><p class="mained">Professional</p></button>
 		
-		<p id="datetag"></p>
+		
+		<div style="margin: auto; width: 50%;">
+		<!--<p id="datetag" style="margin: 0 0 0 30px;"></p>-->
+		<img src="./art/font2.png" alt="ad" width="450" height="200" style="margin: -60px 0 0 -40px;"></div>
 		
 		<script>
 		const d = new Date();
 		document.getElementById("datetag").innerHTML = d.toUTCString();
 		</script>
 		
+		
+		
 	</div>
 	
 	<!-- footer section -->
 		<div class="bottomfooter">
 	
-			<p>Version 0.2 © Tiisus 2022. All rights reserved.</p><br>
+			<p>Version 1.0. © Tiina "Tiisus" Hirvonen 2022. All rights reserved.</p><br>
 			<p></p>
 	
 		</div>
