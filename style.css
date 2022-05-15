@@ -659,3 +659,15 @@ body {
 	
 }
 
+.maincont2 { 
+	font-family: "VT323", "Lucida Console";
+	font-size: 20px;
+	text-align: left;
+	float: left;
+	grid-area: main;  
+	background-color: #afa8af;
+	padding-right: 5%;
+	padding-left: 2%;
+	border: 3px #f5f5f5;
+	border-style: outset;
+}
