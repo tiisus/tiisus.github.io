@@ -29,7 +29,7 @@ function toDev(){
 /* transports to Theseus */
 function toTheseus() {
 	
-	location.assign("https://www.theseus.fi/handle/10024/504732");
+	
 	
 }
 
@@ -70,13 +70,13 @@ function toPhotos(){
 /* takes back to linkedin */
 function toLinkd(){
 
-	location.assign("https://www.linkedin.com/in/tiina-hirvonen-641726185");
+	
 }
 
 /* takes back to artstation */
 function toStation(){
 
-	location.assign("https://www.artstation.com/tiinah");
+	
 }
 
 
